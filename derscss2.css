@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  header{
+    height: 100px;
+    background-color: orangered;
+}
+.container{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+#sahmat{
+    height: 100%;
+    display: inline-block;
+}
+#sahmat img{
+    height: 100%;
+}
+header ul{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 100px;
+}
+header ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin-left: 70px;
+    color: white;
+}
+section.cloudy{
+    background-image: url("../images/AdobeStock_364059453.jpeg");
+    height: calc(100vh - 100px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text{
+    padding-top: 200px;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.text h1{
+    color: white;
+    font-size: 50px;
+}
+.text p{
+    color: rgb(236, 236, 100);
+    font-size: 17px;
+    margin: 30px;
+}
+.logres button,
+.card-text button{
+   width: 80px;
+   height: 40px;
+   background-color: red;
+   color: white;
+   border-radius: 15px;
+   border: 0;
+}
+.col{
+    background-color: teal;
+}
+.col h3{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+}
+.card{
+    width: 250px;
+}
+.card-image,
+.card-image img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card-image{
+    padding: 10px;
+}
+.card{
+    height: 370px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    border-radius: 8px;
+}
+.card-text{
+    text-align: center;
+    padding: 10px 0;
+}
+.card-text h5{
+    font-size: 20px;
+}
+.card-text del{
+    padding-top: 10px;
+    display: block;
+    text-decoration: line-through;
+}
+.card-text span{
+    display: block;
+    padding: 10px 0;
+    font-size: 25px;
+    font-weight:800;
+}
