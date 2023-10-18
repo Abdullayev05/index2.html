@@ -54,6 +54,11 @@ section.cloudy{
     font-size: 17px;
     margin: 30px;
 }
+ .middle{
+    background-image: url(./indir\ \(2\).jpeg);
+   height: 500px;
+   width: 1225px;
+ }
 .logres button,
 .card-text button{
    width: 80px;
